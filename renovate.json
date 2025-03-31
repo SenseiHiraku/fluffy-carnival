@@ -16,7 +16,7 @@
       "matchDatasources": ["docker"],
       "matchPackageNames": ["php"],
       "matchUpdateTypes": ["patch"],
-      "enabled": false
+      "enabled": true
     }
   ],
   "timezone":"Europe/Berlin"
