@@ -1,17 +1,13 @@
-# minimal-reproduction-template
-
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+#  #35072
 
 ## Current behavior
 
-Explain the current behavior here.
+Renovate only tracks the minor updates of php and completely ignores the patches
 
 ## Expected behavior
 
-Explain the expected behavior here.
+It should make a pr to update to `php 8.3.19-fpm`
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/35072
