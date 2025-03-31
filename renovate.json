@@ -1,1 +1,23 @@
-{}
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "description": "Disable minor updates for PHP Docker images",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["php"],
+      "matchUpdateTypes": ["minor"],
+      "enabled": false
+    },
+    {
+      "description": "Enable patch updates for PHP Docker images",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["php"],
+      "matchUpdateTypes": ["patch"],
+      "enabled": false
+    }
+  ],
+  "timezone":"Europe/Berlin"
+}
