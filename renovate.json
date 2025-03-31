@@ -19,5 +19,6 @@
       "enabled": true
     }
   ],
-  "timezone":"Europe/Berlin"
+  "timezone":"Europe/Berlin",
+  "separateMinorPatch": true
 }
